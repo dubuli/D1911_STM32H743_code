@@ -1,0 +1,11 @@
+..\obj\usmart_str.o: ..\USMART\usmart_str.c
+..\obj\usmart_str.o: ..\USMART\usmart_str.h
+..\obj\usmart_str.o: ..\SYSTEM\sys\sys.h
+..\obj\usmart_str.o: ..\SYSTEM\sys\stm32h7xx.h
+..\obj\usmart_str.o: ..\SYSTEM\sys\stm32h743xx.h
+..\obj\usmart_str.o: ..\SYSTEM\sys\core_cm7.h
+..\obj\usmart_str.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usmart_str.o: ..\SYSTEM\sys\cmsis_compiler.h
+..\obj\usmart_str.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\usmart_str.o: ..\SYSTEM\sys\system_stm32h7xx.h
+..\obj\usmart_str.o: ..\USMART\usmart.h

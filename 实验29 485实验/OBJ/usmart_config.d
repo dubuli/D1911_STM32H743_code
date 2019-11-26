@@ -1,0 +1,13 @@
+..\obj\usmart_config.o: ..\USMART\usmart_config.c
+..\obj\usmart_config.o: ..\USMART\usmart.h
+..\obj\usmart_config.o: ..\USMART\usmart_str.h
+..\obj\usmart_config.o: ..\SYSTEM\sys\sys.h
+..\obj\usmart_config.o: ..\SYSTEM\sys\stm32h7xx.h
+..\obj\usmart_config.o: ..\SYSTEM\sys\stm32h743xx.h
+..\obj\usmart_config.o: ..\SYSTEM\sys\core_cm7.h
+..\obj\usmart_config.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usmart_config.o: ..\SYSTEM\sys\cmsis_compiler.h
+..\obj\usmart_config.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\usmart_config.o: ..\SYSTEM\sys\system_stm32h7xx.h
+..\obj\usmart_config.o: ..\SYSTEM\delay\delay.h
+..\obj\usmart_config.o: ..\HARDWARE\RS485\rs485.h

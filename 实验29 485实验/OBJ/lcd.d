@@ -1,0 +1,16 @@
+..\obj\lcd.o: ..\HARDWARE\LCD\lcd.c
+..\obj\lcd.o: ..\HARDWARE\LCD\lcd.h
+..\obj\lcd.o: ..\SYSTEM\sys\sys.h
+..\obj\lcd.o: ..\SYSTEM\sys\stm32h7xx.h
+..\obj\lcd.o: ..\SYSTEM\sys\stm32h743xx.h
+..\obj\lcd.o: ..\SYSTEM\sys\core_cm7.h
+..\obj\lcd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\lcd.o: ..\SYSTEM\sys\cmsis_compiler.h
+..\obj\lcd.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\lcd.o: ..\SYSTEM\sys\system_stm32h7xx.h
+..\obj\lcd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\lcd.o: ..\HARDWARE\LCD\font.h
+..\obj\lcd.o: ..\SYSTEM\usart\usart.h
+..\obj\lcd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\lcd.o: ..\SYSTEM\delay\delay.h
+..\obj\lcd.o: ..\HARDWARE\LCD\ltdc.h

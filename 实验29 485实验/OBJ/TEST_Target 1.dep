@@ -1,0 +1,203 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32h743xx.s)(0x5B248B97)(--cpu Cortex-M7.fp.dp -g --apcs=interwork -I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "STM32H743xx SETA 1"--list ..\obj\startup_stm32h743xx.lst --xref -o ..\obj\startup_stm32h743xx.o --depend ..\obj\startup_stm32h743xx.d)
+F (.\test.c)(0x5B61C61D)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (..\HARDWARE\LED\led.h)(0x5B17F172)
+I (..\SYSTEM\usart\usart.h)(0x5B768AEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\HARDWARE\MPU\mpu.h)(0x5B476BB8)
+I (..\HARDWARE\LCD\lcd.h)(0x5B743075)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\HARDWARE\SDRAM\sdram.h)(0x5B74321B)
+I (..\HARDWARE\KEY\key.h)(0x5B17F172)
+I (..\USMART\usmart.h)(0x572C7A6D)
+I (..\USMART\usmart_str.h)(0x572C73D5)
+I (..\HARDWARE\RS485\rs485.h)(0x5B224929)
+F (..\SYSTEM\delay\delay.c)(0x5B17DD47)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+F (..\SYSTEM\sys\sys.c)(0x5BE54FD7)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+F (..\SYSTEM\usart\usart.c)(0x5B768AEA)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\usart\usart.h)(0x5B768AEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (..\HARDWARE\LED\led.c)(0x5B1A4B92)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x5B17F172)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+F (..\HARDWARE\MPU\mpu.c)(0x5B601A7F)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\mpu.o --omf_browse ..\obj\mpu.crf --depend ..\obj\mpu.d)
+I (..\HARDWARE\MPU\mpu.h)(0x5B476BB8)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\usart\usart.h)(0x5B768AEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\HARDWARE\LED\led.h)(0x5B17F172)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+F (..\HARDWARE\LCD\lcd.c)(0x5B743075)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+I (..\HARDWARE\LCD\lcd.h)(0x5B743075)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\HARDWARE\LCD\font.h)(0x5714A214)
+I (..\SYSTEM\usart\usart.h)(0x5B768AEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (..\HARDWARE\LCD\ltdc.h)(0x5B60563B)
+F (..\HARDWARE\SDRAM\sdram.c)(0x5B74321B)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\sdram.o --omf_browse ..\obj\sdram.crf --depend ..\obj\sdram.d)
+I (..\HARDWARE\SDRAM\sdram.h)(0x5B74321B)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+F (..\HARDWARE\LCD\ltdc.c)(0x5B60563B)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\ltdc.o --omf_browse ..\obj\ltdc.crf --depend ..\obj\ltdc.d)
+I (..\HARDWARE\LCD\lcd.h)(0x5B743075)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\HARDWARE\LCD\ltdc.h)(0x5B60563B)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (..\HARDWARE\SDRAM\sdram.h)(0x5B74321B)
+F (..\HARDWARE\KEY\key.c)(0x5B17F172)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x5B17F172)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+F (..\HARDWARE\24CXX\myiic.c)(0x5B21F632)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
+I (..\HARDWARE\24CXX\myiic.h)(0x5B21F632)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+F (..\HARDWARE\PCF8574\pcf8574.c)(0x5B222132)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\pcf8574.o --omf_browse ..\obj\pcf8574.crf --depend ..\obj\pcf8574.d)
+I (..\HARDWARE\PCF8574\pcf8574.h)(0x5B222141)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\HARDWARE\24CXX\myiic.h)(0x5B21F632)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+F (..\HARDWARE\RS485\rs485.c)(0x5B224929)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\rs485.o --omf_browse ..\obj\rs485.crf --depend ..\obj\rs485.d)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\HARDWARE\RS485\rs485.h)(0x5B224929)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (..\HARDWARE\PCF8574\pcf8574.h)(0x5B222141)
+I (..\HARDWARE\24CXX\myiic.h)(0x5B21F632)
+F (..\USMART\usmart.c)(0x5BF8141E)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\usmart.o --omf_browse ..\obj\usmart.crf --depend ..\obj\usmart.d)
+I (..\USMART\usmart.h)(0x572C7A6D)
+I (..\USMART\usmart_str.h)(0x572C73D5)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\usart\usart.h)(0x5B768AEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (..\USMART\usmart_config.c)(0x5B224574)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\usmart_config.o --omf_browse ..\obj\usmart_config.crf --depend ..\obj\usmart_config.d)
+I (..\USMART\usmart.h)(0x572C7A6D)
+I (..\USMART\usmart_str.h)(0x572C73D5)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (..\HARDWARE\RS485\rs485.h)(0x5B224929)
+F (..\USMART\usmart_str.c)(0x572C73D5)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\TPAD -I ..\HARDWARE\OLED -I ..\HARDWARE\MPU -I ..\HARDWARE\LCD -I ..\HARDWARE\SDRAM -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\RNG -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\24CXX -I ..\HARDWARE\PCF8574 -I ..\HARDWARE\AP3216C -I ..\HARDWARE\QSPI -I ..\HARDWARE\W25QXX -I ..\HARDWARE\RS485-I.\RTE\_Target_1-Id:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32H743xx -DSTM32H743xx-o ..\obj\usmart_str.o --omf_browse ..\obj\usmart_str.crf --depend ..\obj\usmart_str.d)
+I (..\USMART\usmart_str.h)(0x572C73D5)
+I (..\SYSTEM\sys\sys.h)(0x5B742FD5)
+I (..\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (..\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (..\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (..\USMART\usmart.h)(0x572C7A6D)
+F (..\readme.txt)(0x5B224963)()

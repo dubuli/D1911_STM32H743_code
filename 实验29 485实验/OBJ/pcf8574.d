@@ -1,0 +1,12 @@
+..\obj\pcf8574.o: ..\HARDWARE\PCF8574\pcf8574.c
+..\obj\pcf8574.o: ..\HARDWARE\PCF8574\pcf8574.h
+..\obj\pcf8574.o: ..\SYSTEM\sys\sys.h
+..\obj\pcf8574.o: ..\SYSTEM\sys\stm32h7xx.h
+..\obj\pcf8574.o: ..\SYSTEM\sys\stm32h743xx.h
+..\obj\pcf8574.o: ..\SYSTEM\sys\core_cm7.h
+..\obj\pcf8574.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\pcf8574.o: ..\SYSTEM\sys\cmsis_compiler.h
+..\obj\pcf8574.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\pcf8574.o: ..\SYSTEM\sys\system_stm32h7xx.h
+..\obj\pcf8574.o: ..\HARDWARE\24CXX\myiic.h
+..\obj\pcf8574.o: ..\SYSTEM\delay\delay.h
